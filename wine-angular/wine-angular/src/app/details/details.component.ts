@@ -40,7 +40,7 @@ export class DetailsComponent {
       image: 'assets/images/wine4.jpg'
     }
   ];
-
+  
   constructor(
     private route: ActivatedRoute
   ) {}
@@ -48,7 +48,7 @@ export class DetailsComponent {
   ngOnInit() {
     this.getWine();
   }
-
+  
   getWine(): void {
     const id = +(this.route.snapshot.paramMap.get('id') as string);
     this.wine = this.wines.find(wine => wine.id === id);
