@@ -1,0 +1,31 @@
+.home {
+    text-align: center;
+    padding: 2em;
+    
+    h1 {
+      font-size: 2.5em;
+      color: #800020; //Burgundy color for the wine theme
+    }
+    
+    p {
+      font-size: 1.2em;
+      color: #333;
+      margin: 1em 0;
+    }
+    
+    .explore-button {
+      padding: 10px 20px;
+      font-size: 1em;
+      color: #fff;
+      background-color: #800020; //Burgundy color for the wine theme
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+  
+      &:hover {
+        background-color: #660015; //Darker shade when hovered
+      }
+    }
+  }
+  

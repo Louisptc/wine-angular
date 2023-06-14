@@ -1,0 +1,15 @@
+<div *ngIf="wine">
+    <div class="details-container">
+        <div class="wine-card">
+          <div class="wine-image">
+            <img [src]="wine.image" alt="Image de {{wine.name}}">
+                  </div>
+          <div class="wine-details">
+            <h2>{{ wine.name }}</h2>
+            <h3>{{ wine.price }}€</h3>
+            <p>{{ wine.description }}</p>
+          </div>
+        </div>
+      </div>      
+</div>
+  
