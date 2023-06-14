@@ -30,7 +30,7 @@ export class ProductComponent {
       id: 4,
       name: 'Rioja Gran Reserva',
       price: 59.99,
-      image: 'assets/images/wine4.jpg'
+      image: './assets/images/wine4.jpg'
     }
   ];
   

@@ -3,7 +3,8 @@
       <img [src]="product.image" alt="Image de {{product.name}}">
       <h2>{{ product.name }}</h2>
       <p>{{ product.price | currency:'EUR':true }}</p>
-      <button routerLink="details/{{ product.id }}">Voir les détails</button>
+      <button class="button" routerLink="details/{{ product.id }}">Voir les détails</button>
+      <button class="button" >Ajouter au panier</button>
     </div>
   </div>
   
